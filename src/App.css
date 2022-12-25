@@ -1,0 +1,78 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.message{
+display: none;
+}
+
+.win{
+  width: 96%;
+  padding: 2% 5%;
+  color: white;
+  display: none;
+  background-color: #7ab1ff;
+  display: block;
+}
+.lose{
+  width: 96%;
+  padding: 2% 5%;
+  color: white;
+  display: none;
+  background-color: #ff907a;
+  display: block;
+}
+.warn{
+  width: 96%;
+  padding: 2% 5%;
+  color: white;
+  display: none;
+  background-color: #d9ff7a;
+  display: block;
+}
+
+.nav{
+  width: 96%;
+  background-color: #006aff;
+  color: white;
+  padding: 2%;
+}
+.navaction{
+  display: inline;
+  padding-left: 2%;
+  padding-right: 2%;
+  float: right;
+}
+#TextForm{
+  border: 1px solid #006aff;
+  padding: 2%;
+  font-size: 18px;
+  width: 85%;
+  height: 200px;
+  color: rgb(110, 0, 253);
+}
+
+.head{
+  margin: 2% 5% 1% 5%;
+  padding: 1%;
+  background-color: #006aff;
+  text-align: left;
+  color: white;
+}
+.submitbutton{
+  float: right;
+  color: white;
+  background-color: #006aff;
+  border-radius: 30px;
+  padding: 2% 4%;
+  border: none;
+  margin: 1% 8% 0% 0%;
+}
+.matterpara{
+  margin: 2% 5%;
+  background-color: rgb(47, 255, 151);
+  padding: 2%;
+  text-align: left;
+  user-select: none;
+}
